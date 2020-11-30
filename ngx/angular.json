@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ngx"
+  "defaultProject": "ngx",
+  "cli": {
+    "analytics": false
+  }
 }

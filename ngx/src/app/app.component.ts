@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {UIRouter} from '@uirouter/core';
+import {UIRouterRx} from '@uirouter/rx';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngx';
+
+  constructor(router: UIRouter) {
+    router.plugin(UIRouterRx);
+  }
 }
