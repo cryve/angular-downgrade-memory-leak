@@ -3,7 +3,7 @@ import './content.component.downgrade';
 import {ContentComponent} from './content.component';
 
 /**
- * Module that contains a component used to display the "About COYO" modal.
+ * Module that contains a simple downgraded component which can be used in AngularJS templates.
  */
 @NgModule({
   declarations: [

@@ -1,7 +1,7 @@
 // Load vendor scripts
 require('./vendor');
 
-// Load Coyo base module
+// Load base module
 require('./app/app.base');
 
 // Collect all angular modules
